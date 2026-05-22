@@ -11,7 +11,7 @@
 </div>
 
 ## 📣 News
-- [05/06/2026] [**Gemma 4 VL 26B-A4B**](https://github.com/NVIDIA-NeMo/Megatron-Bridge/tree/main/examples/models/vlm/gemma4_vl) is now supported! Checkpoint conversion, SFT, and PEFT (LoRA) recipes for Google's MoE vision-language model (26B total / 4B active params, 128 experts top-k=8, dual sliding/global attention with K=V tying on full-attention layers) are available on **main**. See the [examples README](https://github.com/NVIDIA-NeMo/Megatron-Bridge/blob/main/examples/models/vlm/gemma4_vl/README.md) for the full walkthrough.
+- [05/06/2026] [**Gemma 4 VL 26B-A4B**](https://github.com/NVIDIA-NeMo/Megatron-Bridge/tree/main/examples/models/vlm/gemma4_vl) is now supported! Checkpoint conversion, SFT, and PEFT (LoRA) recipes for Google's MoE vision-language model (26B total / 4B active params, 128 experts top-k=8, dual sliding/global atton with K=V tying on full-attention layers) are available on **main**. See the [examples README](https://github.com/NVIDIA-NeMo/Megatron-Bridge/blob/main/examples/models/vlm/gemma4_vl/README.md) for the full walkthrough.
 
 - [04/28/2026] Day 0 support for [**Nemotron-3 Nano Omni**](https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16), a 30B-A3B MoE multimodal model that jointly processes image, video, audio, and text. Checkpoint conversion, SFT, and LoRA recipes are available on the [`nemotron_3_omni`](https://github.com/NVIDIA-NeMo/Megatron-Bridge/tree/nemotron_3_omni) branch — see the [examples README](https://github.com/NVIDIA-NeMo/Megatron-Bridge/blob/nemotron_3_omni/examples/models/vlm/nemotron_3_omni/README.md) for the full walkthrough.
 
